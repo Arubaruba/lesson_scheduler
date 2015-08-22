@@ -1,7 +1,11 @@
 var express = require('express');
+var auth = require('./auth');
 var app = express();
 
-var routes = require('./routes.js');
+var routes = require('./routes');
+
+// Configure passport
+auth.setup(app);
 
 // Define routes in router
 routes.setup(app);

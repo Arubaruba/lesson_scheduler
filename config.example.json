@@ -1,0 +1,7 @@
+{
+  "postgres_pass": ""
+  "redis_pass": "put redis password here - if there is one",
+  "session_secret": "PUT SECURE RAND NUMBER HERE (can be generated with command: 'openssl rand -base64 32')",
+  "facebook_app_id": "go to: https://developers.facebook.com/ and create an app",
+  "facebook_app_secret": ""
+}
